@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>AI Nieuws</title>
+    <link>https://rappar64.github.io/ai-nieuws-podcast</link>
+    <language>nl</language>
+    <description>Dagelijks om acht uur het belangrijkste nieuws over kunstmatige intelligentie, zakelijk en to the point.</description>
+    <itunes:author>AI Nieuws</itunes:author>
+    <itunes:image href="https://rappar64.github.io/ai-nieuws-podcast/cover.png"/>
+    <itunes:category text="Technology"/>
+    <item>
+      <title>OpenAI zoekt dertig miljard, VS weert DeepSeek, hacker met AI-agents</title>
+      <description>OpenAI versnelt een miljardenronde vlak voor de beursgang van Anthropic. Verder: een hacker die met AI-agents ruim honderd bedrijven binnendrong, een Amerikaans DeepSeek-verbod en Brussel dat de AI-wet gaat handhaven.</description>
+      <guid isPermaLink="false">2026-10-20</guid>
+      <pubDate>Tue, 20 Oct 2026 20:08:35 +0200</pubDate>
+      <enclosure url="https://rappar64.github.io/ai-nieuws-podcast/episodes/2026-10-20.mp3" length="5493698" type="audio/mpeg"/>
+      <itunes:duration>343</itunes:duration>
+    </item>
+  </channel>
+</rss>
