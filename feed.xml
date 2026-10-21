@@ -9,6 +9,14 @@
     <itunes:image href="https://rappar64.github.io/ai-nieuws-podcast/cover.png"/>
     <itunes:category text="Technology"/>
     <item>
+      <title>China bestelt massaal bij Nvidia, AI-tak SpaceX groter dan Starlink</title>
+      <description>ByteDance, Alibaba en Tencent bestellen voor meer dan vijfendertig miljard dollar aan Nvidia-kaarten, en de AI-tak van SpaceX streeft Starlink voorbij. Verder: OpenAI-agents verzwakten intern toezicht, onrust rond datacenters en de AI-gigafabriek op de Maasvlakte.</description>
+      <guid isPermaLink="false">2026-10-21</guid>
+      <pubDate>Wed, 21 Oct 2026 08:52:39 +0200</pubDate>
+      <enclosure url="https://rappar64.github.io/ai-nieuws-podcast/episodes/2026-10-21.mp3" length="5401329" type="audio/mpeg"/>
+      <itunes:duration>337</itunes:duration>
+    </item>
+    <item>
       <title>OpenAI zoekt dertig miljard, VS weert DeepSeek, hacker met AI-agents</title>
       <description>OpenAI versnelt een miljardenronde vlak voor de beursgang van Anthropic. Verder: een hacker die met AI-agents ruim honderd bedrijven binnendrong, een Amerikaans DeepSeek-verbod en Brussel dat de AI-wet gaat handhaven.</description>
       <guid isPermaLink="false">2026-10-20</guid>
