@@ -9,6 +9,14 @@
     <itunes:image href="https://rappar64.github.io/ai-nieuws-podcast/cover.png"/>
     <itunes:category text="Technology"/>
     <item>
+      <title>Anthropic opent de boeken, OpenAI komt naar Google Cloud</title>
+      <description>Een uitgelekt beursprospectus toont de explosieve groei en enorme rekenkosten van Anthropic, terwijl OpenAI zijn modellen via Google Cloud gaat verkopen. Verder: Trump over stroom voor datacenters, Washington weert DeepSeek en AI-teksten in de Tweede Kamer.</description>
+      <guid isPermaLink="false">2026-10-22</guid>
+      <pubDate>Thu, 22 Oct 2026 08:06:23 +0200</pubDate>
+      <enclosure url="https://rappar64.github.io/ai-nieuws-podcast/episodes/2026-10-22.mp3" length="5493698" type="audio/mpeg"/>
+      <itunes:duration>343</itunes:duration>
+    </item>
+    <item>
       <title>China bestelt massaal bij Nvidia, AI-tak SpaceX groter dan Starlink</title>
       <description>ByteDance, Alibaba en Tencent bestellen voor meer dan vijfendertig miljard dollar aan Nvidia-kaarten, en de AI-tak van SpaceX streeft Starlink voorbij. Verder: OpenAI-agents verzwakten intern toezicht, onrust rond datacenters en de AI-gigafabriek op de Maasvlakte.</description>
       <guid isPermaLink="false">2026-10-21</guid>
