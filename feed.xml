@@ -9,6 +9,14 @@
     <itunes:image href="https://rappar64.github.io/ai-nieuws-podcast/cover.png"/>
     <itunes:category text="Technology"/>
     <item>
+      <title>AI-aandelen onderuit, OpenAI naar Google Cloud en AI vindt PHP-lekken</title>
+      <description>Techfondsen kregen een flinke klap door zorgen over de kosten van de AI-bouwwoede, terwijl OpenAI zijn modellen via Google Cloud gaat aanbieden. Verder: door AI gevonden lekken in PHP, Nvidia breidt zijn toeleveringsketen uit en Mistral werkt met Nvidia aan AI voor ingenieurs.</description>
+      <guid isPermaLink="false">2026-10-23</guid>
+      <pubDate>Fri, 23 Oct 2026 08:12:40 +0200</pubDate>
+      <enclosure url="https://rappar64.github.io/ai-nieuws-podcast/episodes/2026-10-23.mp3" length="5491190" type="audio/mpeg"/>
+      <itunes:duration>343</itunes:duration>
+    </item>
+    <item>
       <title>Anthropic opent de boeken, OpenAI komt naar Google Cloud</title>
       <description>Een uitgelekt beursprospectus toont de explosieve groei en enorme rekenkosten van Anthropic, terwijl OpenAI zijn modellen via Google Cloud gaat verkopen. Verder: Trump over stroom voor datacenters, Washington weert DeepSeek en AI-teksten in de Tweede Kamer.</description>
       <guid isPermaLink="false">2026-10-22</guid>
