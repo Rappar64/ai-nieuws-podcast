@@ -9,6 +9,14 @@
     <itunes:image href="https://rappar64.github.io/ai-nieuws-podcast/cover.png"/>
     <itunes:category text="Technology"/>
     <item>
+      <title>OpenAI goedkoper gewaardeerd, Koreaans datacenterplan en AI-dokter</title>
+      <description>OpenAI haalt tot dertig miljard dollar op tegen een lagere waardering, terwijl Zuid-Korea driehonderdvijftig miljard zoekt voor AI-datacenters. Verder: Microsofts diagnose-AI, gaten in de bewaking bij OpenAI, een Brits biosecuritylab en een Zweeds verbod op ChatGPT en Claude.</description>
+      <guid isPermaLink="false">2026-10-24</guid>
+      <pubDate>Sat, 24 Oct 2026 08:06:01 +0200</pubDate>
+      <enclosure url="https://rappar64.github.io/ai-nieuws-podcast/episodes/2026-10-24.mp3" length="5382103" type="audio/mpeg"/>
+      <itunes:duration>336</itunes:duration>
+    </item>
+    <item>
       <title>AI-aandelen onderuit, OpenAI naar Google Cloud en AI vindt PHP-lekken</title>
       <description>Techfondsen kregen een flinke klap door zorgen over de kosten van de AI-bouwwoede, terwijl OpenAI zijn modellen via Google Cloud gaat aanbieden. Verder: door AI gevonden lekken in PHP, Nvidia breidt zijn toeleveringsketen uit en Mistral werkt met Nvidia aan AI voor ingenieurs.</description>
       <guid isPermaLink="false">2026-10-23</guid>
