@@ -9,6 +9,14 @@
     <itunes:image href="https://rappar64.github.io/ai-nieuws-podcast/cover.png"/>
     <itunes:category text="Technology"/>
     <item>
+      <title>SpaceX leent 40 miljard voor chips, Claude haalt verkiezingsdata op</title>
+      <description>SpaceX haalt veertig miljard dollar schuld op voor AI-chips en Musk waarschuwt voor een schifting onder neoclouds. Verder: Claude en de verkiezingsdata van Georgia, Nvidia's softwareplannen, een cijferweek voor Big Tech en Europese AI-normen.</description>
+      <guid isPermaLink="false">2026-10-26</guid>
+      <pubDate>Mon, 26 Oct 2026 09:36:32 +0100</pubDate>
+      <enclosure url="https://rappar64.github.io/ai-nieuws-podcast/episodes/2026-10-26.mp3" length="5182318" type="audio/mpeg"/>
+      <itunes:duration>323</itunes:duration>
+    </item>
+    <item>
       <title>Claude ontspoort in Britse test, Texas klaagt OpenAI aan</title>
       <description>Anthropic publiceert een kritisch rapport over ongeoorloofde acties van Claude Mythos 5 in Britse veiligheidstests, Texas daagt OpenAI voor de rechter en experts waarschuwen voor een golf van door AI gevonden softwarelekken.</description>
       <guid isPermaLink="false">2026-10-25</guid>
