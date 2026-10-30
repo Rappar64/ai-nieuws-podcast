@@ -9,6 +9,14 @@
     <itunes:image href="https://rappar64.github.io/ai-nieuws-podcast/cover.png"/>
     <itunes:category text="Technology"/>
     <item>
+      <title>AWS groeit 39 procent, Reddit sluit deur, Canada stapt in Cohere</title>
+      <description>Amazon investeert zo hard in AI dat de vrije kasstroom diep negatief wordt, Reddit reageert op wegvallend zoekverkeer met een inlogmuur en Canada neemt een belang in Cohere. Verder Mistral Large 4 met open gewichten, OpenAI's nieuwe toezicht op zijn eigen modellen en een chipsmokkelzaak in Maleisië.</description>
+      <guid isPermaLink="false">2026-10-30</guid>
+      <pubDate>Fri, 30 Oct 2026 08:06:46 +0100</pubDate>
+      <enclosure url="https://rappar64.github.io/ai-nieuws-podcast/episodes/2026-10-30.mp3" length="5487011" type="audio/mpeg"/>
+      <itunes:duration>342</itunes:duration>
+    </item>
+    <item>
       <title>Google Cloud verdubbelt maar aandeel valt, Azure groeit 48 procent</title>
       <description>Alphabet en Microsoft openen de boeken: sterke cloudgroei, maar beleggers straffen Google voor de hoge investeringen. Verder praat Marvell over een megaovername van Lumentum en investeert Nvidia drie miljard dollar in Meta.</description>
       <guid isPermaLink="false">2026-10-29</guid>
