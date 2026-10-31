@@ -9,6 +9,14 @@
     <itunes:image href="https://rappar64.github.io/ai-nieuws-podcast/cover.png"/>
     <itunes:category text="Technology"/>
     <item>
+      <title>Intel beleeft zwarte vrijdag, OpenAI verlaagt financieringsronde</title>
+      <description>Chipaandelen belanden in een berenmarkt na een historische koersval van Intel. OpenAI haalt minder geld op dan gepland, S&amp;P zet Meta op een negatief vooruitzicht en Reddit keldert door AI-zoeken.</description>
+      <guid isPermaLink="false">2026-10-31</guid>
+      <pubDate>Sat, 31 Oct 2026 08:06:36 +0100</pubDate>
+      <enclosure url="https://rappar64.github.io/ai-nieuws-podcast/episodes/2026-10-31.mp3" length="5215755" type="audio/mpeg"/>
+      <itunes:duration>326</itunes:duration>
+    </item>
+    <item>
       <title>AWS groeit 39 procent, Reddit sluit deur, Canada stapt in Cohere</title>
       <description>Amazon investeert zo hard in AI dat de vrije kasstroom diep negatief wordt, Reddit reageert op wegvallend zoekverkeer met een inlogmuur en Canada neemt een belang in Cohere. Verder Mistral Large 4 met open gewichten, OpenAI's nieuwe toezicht op zijn eigen modellen en een chipsmokkelzaak in Maleisië.</description>
       <guid isPermaLink="false">2026-10-30</guid>
