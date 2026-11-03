@@ -9,6 +9,14 @@
     <itunes:image href="https://rappar64.github.io/ai-nieuws-podcast/cover.png"/>
     <itunes:category text="Technology"/>
     <item>
+      <title>Anthropic toont kwartaalcijfers, Oracle haalt twintig miljard op</title>
+      <description>Anthropic geeft in zijn aangepaste beursprospectus voor het eerst cijfers over het derde kwartaal, en Oracle haalt twintig miljard dollar op voor zijn AI-datacenters. Verder: Nvidia stapt in bij Naver, Britse waarschuwing voor AI-cyberaanvallen en een DNB-analyse over AI in Nederland.</description>
+      <guid isPermaLink="false">2026-11-03</guid>
+      <pubDate>Tue, 03 Nov 2026 08:07:08 +0100</pubDate>
+      <enclosure url="https://rappar64.github.io/ai-nieuws-podcast/episodes/2026-11-03.mp3" length="5401329" type="audio/mpeg"/>
+      <itunes:duration>337</itunes:duration>
+    </item>
+    <item>
       <title>Intel beleeft zwarte vrijdag, OpenAI verlaagt financieringsronde</title>
       <description>Chipaandelen belanden in een berenmarkt na een historische koersval van Intel. OpenAI haalt minder geld op dan gepland, S&amp;P zet Meta op een negatief vooruitzicht en Reddit keldert door AI-zoeken.</description>
       <guid isPermaLink="false">2026-10-31</guid>
