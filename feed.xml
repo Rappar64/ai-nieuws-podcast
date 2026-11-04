@@ -9,6 +9,14 @@
     <itunes:image href="https://rappar64.github.io/ai-nieuws-podcast/cover.png"/>
     <itunes:category text="Technology"/>
     <item>
+      <title>Palantir verdubbelt omzet, OpenAI huurt hackers in, Apple waarschuwt</title>
+      <description>Palantir groeit fors dankzij zakelijke AI-klanten, OpenAI zet ex-DOGE-hackers in voor beveiliging en Apple waarschuwt voor onvoorspelbare AI-agenten. Verder AI in de Amerikaanse verkiezingen, Revolut die AI-kosten met negentig procent verlaagt en een Brits megadatacenter.</description>
+      <guid isPermaLink="false">2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 11:24:17 +0100</pubDate>
+      <enclosure url="https://rappar64.github.io/ai-nieuws-podcast/episodes/2026-11-04.mp3" length="5488265" type="audio/mpeg"/>
+      <itunes:duration>343</itunes:duration>
+    </item>
+    <item>
       <title>Anthropic toont kwartaalcijfers, Oracle haalt twintig miljard op</title>
       <description>Anthropic geeft in zijn aangepaste beursprospectus voor het eerst cijfers over het derde kwartaal, en Oracle haalt twintig miljard dollar op voor zijn AI-datacenters. Verder: Nvidia stapt in bij Naver, Britse waarschuwing voor AI-cyberaanvallen en een DNB-analyse over AI in Nederland.</description>
       <guid isPermaLink="false">2026-11-03</guid>
