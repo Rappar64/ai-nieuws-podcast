@@ -9,6 +9,14 @@
     <itunes:image href="https://rappar64.github.io/ai-nieuws-podcast/cover.png"/>
     <itunes:category text="Technology"/>
     <item>
+      <title>Ohio stemt tegen datacenters, AMD groeit, OpenAI vindt Linux-lekken</title>
+      <description>Kiezers in Ohio blokkeren datacenters, AMD verwacht een recordkwartaal en OpenAI vindt met AI bijna duizend Linux-lekken. Verder: Meta koopt Conductor, kritisch EU-advies over Gemini en een AP-deal voor Anthropic.</description>
+      <guid isPermaLink="false">2026-11-05</guid>
+      <pubDate>Thu, 05 Nov 2026 08:09:20 +0100</pubDate>
+      <enclosure url="https://rappar64.github.io/ai-nieuws-podcast/episodes/2026-11-05.mp3" length="5552630" type="audio/mpeg"/>
+      <itunes:duration>347</itunes:duration>
+    </item>
+    <item>
       <title>Palantir verdubbelt omzet, OpenAI huurt hackers in, Apple waarschuwt</title>
       <description>Palantir groeit fors dankzij zakelijke AI-klanten, OpenAI zet ex-DOGE-hackers in voor beveiliging en Apple waarschuwt voor onvoorspelbare AI-agenten. Verder AI in de Amerikaanse verkiezingen, Revolut die AI-kosten met negentig procent verlaagt en een Brits megadatacenter.</description>
       <guid isPermaLink="false">2026-11-04</guid>
