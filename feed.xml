@@ -9,6 +9,14 @@
     <itunes:image href="https://rappar64.github.io/ai-nieuws-podcast/cover.png"/>
     <itunes:category text="Technology"/>
     <item>
+      <title>AI-aandelen kelderen, Anthropic versnelt, OpenAI lanceert cybermodel</title>
+      <description>AI- en chipaandelen beleefden hun zwaarste dag in ruim anderhalf jaar na de Amerikaanse verkiezingen. Verder: METR meet een verdubbeling van het tempo bij Anthropic, OpenAI beperkt toegang tot GPT-6 Cyber, Airbnb kondigt een AI-reisagent aan en de EU houdt een AI-top in Dublin.</description>
+      <guid isPermaLink="false">2026-11-06</guid>
+      <pubDate>Fri, 06 Nov 2026 08:06:32 +0100</pubDate>
+      <enclosure url="https://rappar64.github.io/ai-nieuws-podcast/episodes/2026-11-06.mp3" length="5476980" type="audio/mpeg"/>
+      <itunes:duration>342</itunes:duration>
+    </item>
+    <item>
       <title>Ohio stemt tegen datacenters, AMD groeit, OpenAI vindt Linux-lekken</title>
       <description>Kiezers in Ohio blokkeren datacenters, AMD verwacht een recordkwartaal en OpenAI vindt met AI bijna duizend Linux-lekken. Verder: Meta koopt Conductor, kritisch EU-advies over Gemini en een AP-deal voor Anthropic.</description>
       <guid isPermaLink="false">2026-11-05</guid>
