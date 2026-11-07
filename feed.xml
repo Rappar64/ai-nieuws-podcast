@@ -9,6 +9,14 @@
     <itunes:image href="https://rappar64.github.io/ai-nieuws-podcast/cover.png"/>
     <itunes:category text="Technology"/>
     <item>
+      <title>OpenAI haalt minder op dan gehoopt, Google bouwt in Wyoming</title>
+      <description>OpenAI sluit een eerste financieringsdeel van elf miljard dollar af, onder het oorspronkelijke doel. Verder: Google investeert zeventien miljard in Wyoming, het Congres wil Jensen Huang spreken en de Bank of England ziet weinig productiviteitswinst door AI.</description>
+      <guid isPermaLink="false">2026-11-07</guid>
+      <pubDate>Sat, 07 Nov 2026 08:08:25 +0100</pubDate>
+      <enclosure url="https://rappar64.github.io/ai-nieuws-podcast/episodes/2026-11-07.mp3" length="5168526" type="audio/mpeg"/>
+      <itunes:duration>323</itunes:duration>
+    </item>
+    <item>
       <title>AI-aandelen kelderen, Anthropic versnelt, OpenAI lanceert cybermodel</title>
       <description>AI- en chipaandelen beleefden hun zwaarste dag in ruim anderhalf jaar na de Amerikaanse verkiezingen. Verder: METR meet een verdubbeling van het tempo bij Anthropic, OpenAI beperkt toegang tot GPT-6 Cyber, Airbnb kondigt een AI-reisagent aan en de EU houdt een AI-top in Dublin.</description>
       <guid isPermaLink="false">2026-11-06</guid>
