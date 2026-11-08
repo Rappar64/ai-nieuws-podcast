@@ -9,6 +9,14 @@
     <itunes:image href="https://rappar64.github.io/ai-nieuws-podcast/cover.png"/>
     <itunes:category text="Technology"/>
     <item>
+      <title>Anthropic-beursgang goedkoper, TSMC kijkt naar geheugen, kabinetsvisie</title>
+      <description>Beleggers drukken de verwachte waardering van Anthropic, TSMC overweegt geheugenchips voor Nvidia en het kabinet presenteert zijn AI-visie. Verder DeepMind en RSA, overnames in AI-beveiliging en een open model van Baidu.</description>
+      <guid isPermaLink="false">2026-11-08</guid>
+      <pubDate>Sun, 08 Nov 2026 08:05:32 +0100</pubDate>
+      <enclosure url="https://rappar64.github.io/ai-nieuws-podcast/episodes/2026-11-08.mp3" length="5501221" type="audio/mpeg"/>
+      <itunes:duration>343</itunes:duration>
+    </item>
+    <item>
       <title>OpenAI haalt minder op dan gehoopt, Google bouwt in Wyoming</title>
       <description>OpenAI sluit een eerste financieringsdeel van elf miljard dollar af, onder het oorspronkelijke doel. Verder: Google investeert zeventien miljard in Wyoming, het Congres wil Jensen Huang spreken en de Bank of England ziet weinig productiviteitswinst door AI.</description>
       <guid isPermaLink="false">2026-11-07</guid>
