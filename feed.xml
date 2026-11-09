@@ -9,6 +9,14 @@
     <itunes:image href="https://rappar64.github.io/ai-nieuws-podcast/cover.png"/>
     <itunes:category text="Technology"/>
     <item>
+      <title>Anthropic koopt gascentrales, Trump opent deur voor AI-regels</title>
+      <description>Anthropic koopt voor drie komma vier miljard dollar aan gasgeneratoren, Trump staat open voor AI-waarborgen en Microsoft bouwt een rekendeal met Oracle af. Verder groeit DeepSeek met zijn agent en haalt Thinking Machines vijf miljard op.</description>
+      <guid isPermaLink="false">2026-11-09</guid>
+      <pubDate>Mon, 09 Nov 2026 09:16:55 +0100</pubDate>
+      <enclosure url="https://rappar64.github.io/ai-nieuws-podcast/episodes/2026-11-09.mp3" length="5295167" type="audio/mpeg"/>
+      <itunes:duration>330</itunes:duration>
+    </item>
+    <item>
       <title>Anthropic-beursgang goedkoper, TSMC kijkt naar geheugen, kabinetsvisie</title>
       <description>Beleggers drukken de verwachte waardering van Anthropic, TSMC overweegt geheugenchips voor Nvidia en het kabinet presenteert zijn AI-visie. Verder DeepMind en RSA, overnames in AI-beveiliging en een open model van Baidu.</description>
       <guid isPermaLink="false">2026-11-08</guid>
