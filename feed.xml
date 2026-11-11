@@ -9,6 +9,14 @@
     <itunes:image href="https://rappar64.github.io/ai-nieuws-podcast/cover.png"/>
     <itunes:category text="Technology"/>
     <item>
+      <title>Anthropic prijst beursgang, Chinese universiteit kocht Nvidia-chips</title>
+      <description>Anthropic mikt bij zijn beursgang op een waardering tot veertienhonderd miljard dollar. Verder: verboden Nvidia-chips in China, een groter datalek bij Fireworks AI, ChatGPT via Amazon en nieuwe EU-richtlijnen voor AI en verkiezingen.</description>
+      <guid isPermaLink="false">2026-11-11</guid>
+      <pubDate>Wed, 11 Nov 2026 08:18:47 +0100</pubDate>
+      <enclosure url="https://rappar64.github.io/ai-nieuws-podcast/episodes/2026-11-11.mp3" length="5420555" type="audio/mpeg"/>
+      <itunes:duration>338</itunes:duration>
+    </item>
+    <item>
       <title>Anthropic lanceert Fable 5.2, Nvidia start onderzoek naar Huang</title>
       <description>Anthropic brengt Claude Fable en Mythos 5.2 uit, het bestuur van Nvidia start een onafhankelijk onderzoek rond topman Jensen Huang en de financiering van AI-chips en datacenters stuit op weerstand. Verder nieuwe TPU's van Google, een netstop voor datacenters in Noorwegen en een AI-deal tussen Disney en Adobe.</description>
       <guid isPermaLink="false">2026-11-10</guid>
