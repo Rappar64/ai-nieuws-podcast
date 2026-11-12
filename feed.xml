@@ -9,6 +9,14 @@
     <itunes:image href="https://rappar64.github.io/ai-nieuws-podcast/cover.png"/>
     <itunes:category text="Technology"/>
     <item>
+      <title>Nvidia-bestuur beraadt over Huang, OpenAI groeit maar verliest fors</title>
+      <description>Het bestuur van Nvidia overweegt topman Jensen Huang te ontslaan, OpenAI zet tien miljard dollar om met oplopend verlies en de Fed waarschuwt voor een correctie. Verder: CoreWeave, Gemini 4 Carbon, Europese cloudregels en United Airlines.</description>
+      <guid isPermaLink="false">2026-11-12</guid>
+      <pubDate>Thu, 12 Nov 2026 08:07:28 +0100</pubDate>
+      <enclosure url="https://rappar64.github.io/ai-nieuws-podcast/episodes/2026-11-12.mp3" length="5297675" type="audio/mpeg"/>
+      <itunes:duration>331</itunes:duration>
+    </item>
+    <item>
       <title>Anthropic prijst beursgang, Chinese universiteit kocht Nvidia-chips</title>
       <description>Anthropic mikt bij zijn beursgang op een waardering tot veertienhonderd miljard dollar. Verder: verboden Nvidia-chips in China, een groter datalek bij Fireworks AI, ChatGPT via Amazon en nieuwe EU-richtlijnen voor AI en verkiezingen.</description>
       <guid isPermaLink="false">2026-11-11</guid>
