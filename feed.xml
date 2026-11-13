@@ -9,6 +9,14 @@
     <itunes:image href="https://rappar64.github.io/ai-nieuws-podcast/cover.png"/>
     <itunes:category text="Technology"/>
     <item>
+      <title>Jensen Huang stapt op bij Nvidia, EU houdt eerste AI-top in Dublin</title>
+      <description>Nvidia-topman Jensen Huang treedt af en financieel directeur Colette Kress neemt tijdelijk over. Verder: de eerste Europese AI-top in Dublin, een half miljard voor Agile Robots en de nasleep van het Fireworks-lek bij Notion.</description>
+      <guid isPermaLink="false">2026-11-13</guid>
+      <pubDate>Fri, 13 Nov 2026 08:07:16 +0100</pubDate>
+      <enclosure url="https://rappar64.github.io/ai-nieuws-podcast/episodes/2026-11-13.mp3" length="5206978" type="audio/mpeg"/>
+      <itunes:duration>325</itunes:duration>
+    </item>
+    <item>
       <title>Nvidia-bestuur beraadt over Huang, OpenAI groeit maar verliest fors</title>
       <description>Het bestuur van Nvidia overweegt topman Jensen Huang te ontslaan, OpenAI zet tien miljard dollar om met oplopend verlies en de Fed waarschuwt voor een correctie. Verder: CoreWeave, Gemini 4 Carbon, Europese cloudregels en United Airlines.</description>
       <guid isPermaLink="false">2026-11-12</guid>
