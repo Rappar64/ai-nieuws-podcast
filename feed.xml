@@ -9,6 +9,14 @@
     <itunes:image href="https://rappar64.github.io/ai-nieuws-podcast/cover.png"/>
     <itunes:category text="Technology"/>
     <item>
+      <title>Anthropic-beursgang zes keer overtekend, Nvidia blijft onder druk</title>
+      <description>Anthropic gaat volgende week naar de beurs bij een waardering tot één komma vier biljoen dollar, terwijl Nvidia verder daalt na het vertrek van Jensen Huang. Verder: SpaceX investeert vierenzeventig miljard dollar, OpenAI laat agents betalen en Brussel stelt regels voor.</description>
+      <guid isPermaLink="false">2026-11-14</guid>
+      <pubDate>Sat, 14 Nov 2026 08:05:38 +0100</pubDate>
+      <enclosure url="https://rappar64.github.io/ai-nieuws-podcast/episodes/2026-11-14.mp3" length="5493698" type="audio/mpeg"/>
+      <itunes:duration>343</itunes:duration>
+    </item>
+    <item>
       <title>Jensen Huang stapt op bij Nvidia, EU houdt eerste AI-top in Dublin</title>
       <description>Nvidia-topman Jensen Huang treedt af en financieel directeur Colette Kress neemt tijdelijk over. Verder: de eerste Europese AI-top in Dublin, een half miljard voor Agile Robots en de nasleep van het Fireworks-lek bij Notion.</description>
       <guid isPermaLink="false">2026-11-13</guid>
