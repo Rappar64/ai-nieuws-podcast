@@ -9,6 +9,14 @@
     <itunes:image href="https://rappar64.github.io/ai-nieuws-podcast/cover.png"/>
     <itunes:category text="Technology"/>
     <item>
+      <title>Beursweek voor AI: cijfers Nvidia en beursgang Anthropic</title>
+      <description>Nvidia presenteert dinsdag zijn eerste cijfers sinds het vertrek van Jensen Huang en Anthropic prijst woensdag zijn beursgang. Verder: Mercor verdubbelt zijn waardering, CoreWeave wil opnieuw lenen en Washington buigt zich over spionage in de AI-sector.</description>
+      <guid isPermaLink="false">2026-11-15</guid>
+      <pubDate>Sun, 15 Nov 2026 08:08:39 +0100</pubDate>
+      <enclosure url="https://rappar64.github.io/ai-nieuws-podcast/episodes/2026-11-15.mp3" length="5010955" type="audio/mpeg"/>
+      <itunes:duration>313</itunes:duration>
+    </item>
+    <item>
       <title>Anthropic-beursgang zes keer overtekend, Nvidia blijft onder druk</title>
       <description>Anthropic gaat volgende week naar de beurs bij een waardering tot één komma vier biljoen dollar, terwijl Nvidia verder daalt na het vertrek van Jensen Huang. Verder: SpaceX investeert vierenzeventig miljard dollar, OpenAI laat agents betalen en Brussel stelt regels voor.</description>
       <guid isPermaLink="false">2026-11-14</guid>
