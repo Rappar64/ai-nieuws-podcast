@@ -9,6 +9,14 @@
     <itunes:image href="https://rappar64.github.io/ai-nieuws-podcast/cover.png"/>
     <itunes:category text="Technology"/>
     <item>
+      <title>VS sluit AI-pact met bondgenoten, roep om terugkeer Huang groeit</title>
+      <description>De Verenigde Staten en negen partners tekenen een verklaring over veilige AI-ketens, terwijl de druk groeit om Jensen Huang terug te halen bij Nvidia. Verder: de Fed ziet AI als grootste risico, protest in Edinburgh, LangChain en Apple.</description>
+      <guid isPermaLink="false">2026-11-16</guid>
+      <pubDate>Mon, 16 Nov 2026 09:35:56 +0100</pubDate>
+      <enclosure url="https://rappar64.github.io/ai-nieuws-podcast/episodes/2026-11-16.mp3" length="5476980" type="audio/mpeg"/>
+      <itunes:duration>342</itunes:duration>
+    </item>
+    <item>
       <title>Beursweek voor AI: cijfers Nvidia en beursgang Anthropic</title>
       <description>Nvidia presenteert dinsdag zijn eerste cijfers sinds het vertrek van Jensen Huang en Anthropic prijst woensdag zijn beursgang. Verder: Mercor verdubbelt zijn waardering, CoreWeave wil opnieuw lenen en Washington buigt zich over spionage in de AI-sector.</description>
       <guid isPermaLink="false">2026-11-15</guid>
