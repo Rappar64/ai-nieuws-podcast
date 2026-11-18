@@ -9,6 +9,14 @@
     <itunes:image href="https://rappar64.github.io/ai-nieuws-podcast/cover.png"/>
     <itunes:category text="Technology"/>
     <item>
+      <title>Recordcijfers Nvidia, nieuwe OpenAI-modellen en beursgang Anthropic</title>
+      <description>Nvidia boekt een recordkwartaal in de eerste cijfers na het vertrek van Jensen Huang, OpenAI lanceert GPT zes punt twee en Anthropic bepaalt vanavond de prijs van zijn beursgang. Verder: Amerikaanse AI-kampioenen en een Noords bod op een Europese AI-gigafabriek.</description>
+      <guid isPermaLink="false">2026-11-18</guid>
+      <pubDate>Wed, 18 Nov 2026 08:48:36 +0100</pubDate>
+      <enclosure url="https://rappar64.github.io/ai-nieuws-podcast/episodes/2026-11-18.mp3" length="5415540" type="audio/mpeg"/>
+      <itunes:duration>338</itunes:duration>
+    </item>
+    <item>
       <title>VS sluit AI-pact met bondgenoten, roep om terugkeer Huang groeit</title>
       <description>De Verenigde Staten en negen partners tekenen een verklaring over veilige AI-ketens, terwijl de druk groeit om Jensen Huang terug te halen bij Nvidia. Verder: de Fed ziet AI als grootste risico, protest in Edinburgh, LangChain en Apple.</description>
       <guid isPermaLink="false">2026-11-16</guid>
