@@ -9,6 +9,14 @@
     <itunes:image href="https://rappar64.github.io/ai-nieuws-podcast/cover.png"/>
     <itunes:category text="Technology"/>
     <item>
+      <title>Anthropic grootste beursgang ooit, Nvidia stopt leveringen aan China</title>
+      <description>Anthropic haalt ruim eenentachtig miljard dollar op en begint vandaag op de Nasdaq, terwijl Nvidia stopt met chipleveringen aan China. Verder een nieuw Gemini-model en een ECB-waarschuwing over AI-waarderingen.</description>
+      <guid isPermaLink="false">2026-11-19</guid>
+      <pubDate>Thu, 19 Nov 2026 08:39:29 +0100</pubDate>
+      <enclosure url="https://rappar64.github.io/ai-nieuws-podcast/episodes/2026-11-19.mp3" length="5501221" type="audio/mpeg"/>
+      <itunes:duration>343</itunes:duration>
+    </item>
+    <item>
       <title>Recordcijfers Nvidia, nieuwe OpenAI-modellen en beursgang Anthropic</title>
       <description>Nvidia boekt een recordkwartaal in de eerste cijfers na het vertrek van Jensen Huang, OpenAI lanceert GPT zes punt twee en Anthropic bepaalt vanavond de prijs van zijn beursgang. Verder: Amerikaanse AI-kampioenen en een Noords bod op een Europese AI-gigafabriek.</description>
       <guid isPermaLink="false">2026-11-18</guid>
