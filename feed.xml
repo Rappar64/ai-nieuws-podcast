@@ -9,6 +9,14 @@
     <itunes:image href="https://rappar64.github.io/ai-nieuws-podcast/cover.png"/>
     <itunes:category text="Technology"/>
     <item>
+      <title>Nasdaq wist jaarwinst uit na Nvidia-onderzoek, Trump dreigt techsector</title>
+      <description>AI-aandelen onderuit na berichten over een onderzoek van de beurstoezichthouder bij Nvidia; Anthropic zakt richting introductieprijs. Verder: Trump dreigt met belasting op buitenlandse datacenters en Deutsche Telekom stapt in Mistral.</description>
+      <guid isPermaLink="false">2026-11-21</guid>
+      <pubDate>Sat, 21 Nov 2026 08:07:56 +0100</pubDate>
+      <enclosure url="https://rappar64.github.io/ai-nieuws-podcast/episodes/2026-11-21.mp3" length="5798390" type="audio/mpeg"/>
+      <itunes:duration>362</itunes:duration>
+    </item>
+    <item>
       <title>Wilde beursdag Anthropic, Nvidia remt steun aan datacenterbouwers</title>
       <description>Anthropic sluit zijn eerste beursdag zeventien procent hoger af na een opening ruim een derde boven de introductieprijs. Verder wordt Nvidia zuiniger met garanties voor datacenterbouwers, koopt Palo Alto Networks Applied Compute en treft een AI-gestuurde cyberaanval de Europese Commissie.</description>
       <guid isPermaLink="false">2026-11-20</guid>
