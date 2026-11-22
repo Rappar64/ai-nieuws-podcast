@@ -9,6 +9,14 @@
     <itunes:image href="https://rappar64.github.io/ai-nieuws-podcast/cover.png"/>
     <itunes:category text="Technology"/>
     <item>
+      <title>Riemann-bewijs met Claude, Amazon dicht bij overname Decart</title>
+      <description>Een wiskundige van Anthropic claimt met Claude de Riemann-hypothese te hebben bewezen en Amazon nadert een overname van 7,5 miljard dollar. Verder: Chinese AI-aandelen onderuit, SpaceX leent 32 miljard voor Nvidia-chips en de AP raadt AI-camerabrillen af.</description>
+      <guid isPermaLink="false">2026-11-22</guid>
+      <pubDate>Sun, 22 Nov 2026 08:05:26 +0100</pubDate>
+      <enclosure url="https://rappar64.github.io/ai-nieuws-podcast/episodes/2026-11-22.mp3" length="5308124" type="audio/mpeg"/>
+      <itunes:duration>331</itunes:duration>
+    </item>
+    <item>
       <title>Nasdaq wist jaarwinst uit na Nvidia-onderzoek, Trump dreigt techsector</title>
       <description>AI-aandelen onderuit na berichten over een onderzoek van de beurstoezichthouder bij Nvidia; Anthropic zakt richting introductieprijs. Verder: Trump dreigt met belasting op buitenlandse datacenters en Deutsche Telekom stapt in Mistral.</description>
       <guid isPermaLink="false">2026-11-21</guid>
@@ -239,14 +247,6 @@
       <pubDate>Wed, 21 Oct 2026 08:52:39 +0200</pubDate>
       <enclosure url="https://rappar64.github.io/ai-nieuws-podcast/episodes/2026-10-21.mp3" length="5401329" type="audio/mpeg"/>
       <itunes:duration>337</itunes:duration>
-    </item>
-    <item>
-      <title>OpenAI zoekt dertig miljard, VS weert DeepSeek, hacker met AI-agents</title>
-      <description>OpenAI versnelt een miljardenronde vlak voor de beursgang van Anthropic. Verder: een hacker die met AI-agents ruim honderd bedrijven binnendrong, een Amerikaans DeepSeek-verbod en Brussel dat de AI-wet gaat handhaven.</description>
-      <guid isPermaLink="false">2026-10-20</guid>
-      <pubDate>Tue, 20 Oct 2026 20:08:35 +0200</pubDate>
-      <enclosure url="https://rappar64.github.io/ai-nieuws-podcast/episodes/2026-10-20.mp3" length="5493698" type="audio/mpeg"/>
-      <itunes:duration>343</itunes:duration>
     </item>
   </channel>
 </rss>
