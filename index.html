@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>AI Nieuws</title>
-<meta name="description" content="Het belangrijkste uit de wereld van AI, elke ochtend in vijf minuten.">
+<meta name="description" content="Elke maandag het belangrijkste uit de wereld van AI, in tien minuten.">
 <meta name="theme-color" content="#0f081f">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
@@ -66,6 +66,44 @@ header .eyebrow { color: var(--amber); }
 header h1 { margin: 6px 0 6px; font-size: 40px; font-weight: 700; display: flex; align-items: baseline; gap: 10px; }
 header h1 .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--warm); box-shadow: 0 0 10px var(--orange); }
 header p { margin: 0; font-size: 15px; color: rgba(255,255,255,.65); line-height: 1.4; }
+.head-row { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+.head-row .round { flex: none; margin-top: 2px; position: relative; }
+.head-row .round.off { background: rgba(255,186,97,.18); color: var(--amber); }
+.head-row .round.off::after { content: ""; position: absolute; top: 2px; right: 2px; width: 9px; height: 9px; border-radius: 50%;
+  background: var(--amber); box-shadow: 0 0 0 2px var(--ink); }
+
+/* Pauze */
+.pausebar { padding: 16px 18px; display: flex; align-items: center; gap: 14px; animation: rise .6s cubic-bezier(.2,.9,.25,1) both; }
+.pausebar .pi { flex: none; width: 40px; height: 40px; border-radius: 50%; background: rgba(255,186,97,.16); color: var(--amber); display: grid; place-items: center; }
+.pausebar .pi svg { width: 18px; height: 18px; }
+.pausebar div { flex: 1; min-width: 0; font-size: 13px; line-height: 1.4; color: rgba(255,255,255,.7); }
+.pausebar strong { display: block; font-size: 15px; color: #fff; margin-bottom: 2px; }
+.chip-btn { flex: none; padding: 8px 14px; border-radius: 99px; background: var(--warm); color: var(--ink); font-size: 13px; font-weight: 650; }
+
+.set-lead { margin: -6px 0 18px; font-size: 15px; line-height: 1.45; color: rgba(255,255,255,.7); }
+.state { display: flex; align-items: center; gap: 12px; padding: 14px 16px; border-radius: 18px; background: rgba(255,255,255,.06); margin-bottom: 18px; }
+.state .led { flex: none; width: 10px; height: 10px; border-radius: 50%; background: #5be08a; box-shadow: 0 0 10px #5be08a; }
+.state.off .led { background: var(--amber); box-shadow: 0 0 10px var(--amber); }
+.state div { font-size: 13px; line-height: 1.4; color: rgba(255,255,255,.65); }
+.state strong { display: block; font-size: 15px; color: #fff; }
+.opts { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 12px 0 14px; }
+.opt { padding: 14px 12px; border-radius: 16px; background: rgba(255,255,255,.08); font-size: 15px; font-weight: 600; text-align: center; }
+.opt small { display: block; font-size: 12px; font-weight: 500; color: rgba(255,255,255,.55); margin-top: 3px; }
+.btn-wide { width: 100%; padding: 15px; border-radius: 16px; background: var(--accent); font-size: 16px; font-weight: 650;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.3); margin-bottom: 14px; }
+.btn-wide[disabled], .opt[disabled] { opacity: .5; }
+.note { font-size: 13px; line-height: 1.45; color: rgba(255,255,255,.55); margin: 0; }
+.set-msg { min-height: 18px; font-size: 13px; color: var(--amber); margin: 10px 0 0; }
+.set-msg.ok { color: #5be08a; }
+#sheet ol.token-steps { display: block; list-style: decimal; margin: 10px 0 12px; padding-left: 20px; font-size: 14px; line-height: 1.55; color: rgba(255,255,255,.8); }
+#sheet ol.token-steps li { display: list-item; font-size: 14px; margin-bottom: 4px; }
+.token-steps a { color: var(--amber); }
+.token-row { display: flex; gap: 8px; }
+.token-row input { flex: 1; min-width: 0; padding: 12px 14px; border-radius: 14px; border: 1px solid rgba(255,255,255,.15);
+  background: rgba(0,0,0,.25); color: #fff; font: 15px var(--sans); }
+.token-row button { flex: none; padding: 0 16px; border-radius: 14px; background: var(--warm); color: var(--ink); font-weight: 650; }
+.linked { font-size: 13px; color: rgba(255,255,255,.55); }
+.linked button { color: var(--amber); text-decoration: underline; font-size: 13px; }
 
 .hero { padding: 22px; display: flex; flex-direction: column; gap: 18px; animation: rise .7s cubic-bezier(.2,.9,.25,1) both; }
 @keyframes rise { from { opacity: 0; transform: translateY(24px); } }
@@ -232,11 +270,17 @@ body.player-open #player { transform: none; visibility: visible; transition: tra
 
 <main id="home">
   <header>
-    <div class="eyebrow" id="today"></div>
-    <h1 class="display">AI Nieuws <span class="dot"></span></h1>
-    <p>Het belangrijkste uit de wereld van AI, elke ochtend in vijf minuten.</p>
+    <div class="head-row">
+      <div>
+        <div class="eyebrow" id="today"></div>
+        <h1 class="display">AI Nieuws <span class="dot"></span></h1>
+      </div>
+      <button class="round press" data-act="settings" id="setBtn" aria-label="Afleveringen aan- of uitzetten"></button>
+    </div>
+    <p>Elke maandag het belangrijkste uit de wereld van AI, in tien minuten.</p>
   </header>
   <div id="install-slot"></div>
+  <div id="status-slot"></div>
   <div id="hero-slot"><div class="loading"><div class="spinner"></div></div></div>
   <section id="archive-slot"></section>
   <footer>Liever in een podcast-app? <a href="feed.xml">RSS-feed</a></footer>
@@ -306,6 +350,7 @@ const ICON = {
   wave: '<svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="21" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M14 24v0M19 19v10M24 14v20M29 19v10M34 24v0" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/></svg>',
   share: '<svg viewBox="0 0 24 24"><path d="M12 3v12M7.5 7.5L12 3l4.5 4.5M6 11H5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-8a1 1 0 0 0-1-1h-1" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
   x: '<svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>',
+  power: '<svg viewBox="0 0 24 24"><path d="M12 3.5v8M6.7 6.6a7.6 7.6 0 1 0 10.6 0" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>',
   skip(dir) {
     const flip = dir > 0 ? ' transform="matrix(-1 0 0 1 32 0)"' : '';
     return `<svg viewBox="0 0 32 32"><g${flip} fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4.5A11.5 11.5 0 1 1 5.3 11.8"/><path d="M18.6 1.6L15.3 4.6l3.3 3"/></g><text x="16" y="20.6" text-anchor="middle" font-size="9.5" font-weight="700" font-family="-apple-system,system-ui,sans-serif" fill="currentColor">15</text></svg>`;
@@ -366,12 +411,15 @@ const S = {
   current: null, playing: false, loading: false, playError: null,
   rate: 1, level: 0, history: new Array(40).fill(0),
   env: null, playerOpen: false, wave: [],
+  status: { paused: false, until: null, updatedAt: null }, saving: false, setMsg: '', setOk: false,
 };
 const RATES = [1, 1.25, 1.5, 0.75];
 const audio = $('#audio');
 let pendingSeek = null;
 
 // ---------- Feed ----------
+const EMPTY_MSG = 'Nog geen afleveringen gepubliceerd. De volgende verschijnt maandag om 08:00.';
+const kindLabel = (ep) => (ep.kind === 'weekly' ? 'Weekoverzicht' : 'Dagbulletin');
 function setFeed(feed) {
   S.episodes = (feed.episodes || []).slice().sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
   S.loaded = true;
@@ -382,11 +430,11 @@ if (cached) { try { setFeed(JSON.parse(cached)); } catch {} }
 async function refresh() {
   try {
     const res = await fetch(`episodes.json?t=${Date.now()}`, { cache: 'no-store' });
-    if (res.status === 404) { S.loaded = true; S.error = S.episodes.length ? null : 'Nog geen afleveringen gepubliceerd. De eerste verschijnt om 08:00.'; return render(); }
+    if (res.status === 404) { S.loaded = true; S.error = S.episodes.length ? null : EMPTY_MSG; return render(); }
     const text = await res.text();
     setFeed(JSON.parse(text));
     store.set('feed', text);
-    S.error = S.episodes.length ? null : 'Nog geen afleveringen gepubliceerd. De eerste verschijnt om 08:00.';
+    S.error = S.episodes.length ? null : EMPTY_MSG;
   } catch {
     S.loaded = true;
     S.error = S.episodes.length ? null : 'Kon de afleveringen niet laden. Controleer je verbinding.';
@@ -397,6 +445,7 @@ async function refresh() {
 // ---------- Weergave home ----------
 function render() {
   $('#today').textContent = fmtDay.format(new Date());
+  renderStatus();
   const [latest, ...archive] = S.episodes;
   const heroSlot = $('#hero-slot');
   if (latest) heroSlot.innerHTML = heroHTML(latest);
@@ -422,7 +471,7 @@ function heroHTML(ep) {
     <ol class="headlines">${(ep.headlines || []).slice(0, 4).map((h, i) => `<li><span>${String(i + 1).padStart(2, '0')}</span>${esc(h)}</li>`).join('')}</ol>
     <div class="hero-play">
       <button class="bigplay press" id="heroPlay" data-play="${esc(ep.id)}" aria-label="${playing ? 'Pauzeer' : 'Speel af'}">${playing ? ICON.pause : ICON.play}</button>
-      <div class="hp-text"><strong>${label}</strong>${cur ? '<div class="bar"><i id="heroProg"></i></div>' : `<small>${fmtTime.format(d)} · Zakelijk nieuwsbulletin</small>`}</div>
+      <div class="hp-text"><strong>${label}</strong>${cur ? '<div class="bar"><i id="heroProg"></i></div>' : `<small>${fmtTime.format(d)} · ${kindLabel(ep)}</small>`}</div>
       ${playing ? EQ : ''}
     </div>
   </article>`;
@@ -435,7 +484,7 @@ function rowHTML(ep) {
   const playing = S.current?.id === ep.id && S.playing;
   return `<button class="ep" data-play="${esc(ep.id)}">
     <span class="date"><b>${d.getDate()}</b><small>${esc(fmtMon.format(d).replace('.', '').toUpperCase())}</small></span>
-    <span class="meta"><strong>${esc(ep.title)}</strong><span>${minutes(ep.duration)}${status}</span></span>
+    <span class="meta"><strong>${esc(ep.title)}</strong><span>${ep.kind === 'weekly' ? 'Week · ' : ''}${minutes(ep.duration)}${status}</span></span>
     <span class="go">${playing ? EQ : `<span class="circle">${ICON.play}</span>`}</span>
   </button>`;
 }
@@ -786,6 +835,8 @@ function openSheet() {
   $('#sheet').innerHTML = `<div class="grab"></div><h3>In deze aflevering</h3>
     <ol>${(ep.headlines || []).map((h, i) => `<li><span>${i + 1}</span>${esc(h)}</li>`).join('')}</ol>
     ${paras ? `<hr><div class="eyebrow">Transcript</div><div class="transcript">${paras}</div>` : ''}`;
+  $('#sheet').dataset.mode = 'transcript';
+  $('#sheet').setAttribute('aria-label', 'Transcript');
   $('#sheet').scrollTop = 0;
   $('#sheet').classList.add('show');
   $('#scrim').classList.add('show');
@@ -809,6 +860,170 @@ function closeSheet() { $('#sheet').classList.remove('show'); $('#scrim').classL
   });
 })();
 
+// ---------- Aan/uit (pauze) ----------
+// De pauze staat in status.json in de GitHub-repo; de wekelijkse taak op de Mac leest die.
+// Schrijven gaat via de GitHub-API met een token dat alleen op dit toestel wordt bewaard.
+const REPO_API = 'https://api.github.com/repos/Rappar64/ai-nieuws-podcast/contents/status.json';
+const TOKEN_URL = 'https://github.com/settings/personal-access-tokens/new';
+const fmtLong = new Intl.DateTimeFormat('nl-NL', { weekday: 'long', day: 'numeric', month: 'long' });
+const isoDay = (d) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+const parseDay = (s) => { const [y, m, d] = s.slice(0, 10).split('-').map(Number); return new Date(y, m - 1, d); };
+
+function pausedNow(st = S.status) {
+  if (!st.paused) return false;
+  return !st.until || isoDay(new Date()) < st.until.slice(0, 10);
+}
+// Eerstvolgende maandag 08:00 (vanaf `from`), de tijd waarop de taak draait.
+function nextMonday(from = new Date()) {
+  const d = new Date(from); d.setHours(8, 15, 0, 0);
+  while (d.getDay() !== 1 || d < from) { d.setDate(d.getDate() + 1); d.setHours(8, 15, 0, 0); }
+  return d;
+}
+function nextEpisodeDate() {
+  if (!pausedNow()) return nextMonday();
+  if (!S.status.until) return null;
+  const until = parseDay(S.status.until);
+  return nextMonday(until < new Date() ? new Date() : until);
+}
+
+function applyStatus(st) {
+  if (!st) return;
+  const cur = S.status.updatedAt ? Date.parse(S.status.updatedAt) : 0;
+  const nxt = st.updatedAt ? Date.parse(st.updatedAt) : 0;
+  if (nxt >= cur) S.status = { paused: !!st.paused, until: st.until || null, updatedAt: st.updatedAt || null };
+}
+try { applyStatus(JSON.parse(store.get('status') || 'null')); } catch {}
+
+async function loadStatus() {
+  try {
+    const res = await fetch(`status.json?t=${Date.now()}`, { cache: 'no-store' });
+    if (res.ok) applyStatus(await res.json());
+  } catch {}
+  store.set('status', JSON.stringify(S.status));
+  render();
+}
+
+async function writeStatus(st, message) {
+  const token = store.get('ghToken');
+  if (!token) throw new Error('Koppel eerst GitHub (hieronder), dan kan de app de pauze opslaan.');
+  const headers = { Authorization: `Bearer ${token}`, Accept: 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28' };
+  const why = (r) => r.status === 401 ? 'Het GitHub-token is ongeldig of verlopen. Maak een nieuw token aan.'
+    : (r.status === 403 || r.status === 404) ? 'Het token mag niet schrijven in ai-nieuws-podcast. Geef het "Contents: Read and write" op die repo.'
+    : `GitHub gaf foutcode ${r.status}. Probeer het later opnieuw.`;
+  const cur = await fetch(`${REPO_API}?ref=main&t=${Date.now()}`, { headers, cache: 'no-store' });
+  if (!cur.ok && cur.status !== 404) throw new Error(why(cur));
+  const sha = cur.ok ? (await cur.json()).sha : undefined;
+  const content = btoa(unescape(encodeURIComponent(JSON.stringify(st, null, 2) + '\n')));
+  const res = await fetch(REPO_API, { method: 'PUT', headers, body: JSON.stringify({ message, content, branch: 'main', ...(sha ? { sha } : {}) }) });
+  if (!res.ok) throw new Error(why(res));
+}
+
+async function setPause(days) {
+  if (S.saving) return;
+  let st, msg;
+  if (days === null) {
+    st = { paused: false, until: null, updatedAt: new Date().toISOString() };
+    msg = 'Podcast hervat';
+  } else {
+    const until = days > 0 ? (() => { const d = new Date(); d.setDate(d.getDate() + days); return isoDay(d); })() : null;
+    st = { paused: true, until, updatedAt: new Date().toISOString() };
+    msg = until ? `Podcast gepauzeerd tot ${until}` : 'Podcast gepauzeerd tot hervatten';
+  }
+  S.saving = true; S.setMsg = 'Opslaan…'; S.setOk = false; renderSettings();
+  try {
+    await writeStatus(st, msg);
+    applyStatus(st);
+    store.set('status', JSON.stringify(S.status));
+    S.setMsg = days === null ? 'Hervat. Maandag om 08:00 verschijnt weer een weekoverzicht.' : 'Opgeslagen. Er worden geen nieuwe afleveringen gemaakt.';
+    S.setOk = true;
+    navigator.vibrate?.(12);
+  } catch (err) {
+    S.setMsg = err.message || 'Opslaan mislukt.';
+  }
+  S.saving = false;
+  render(); renderSettings();
+}
+
+function saveToken() {
+  const v = ($('#tokenInput')?.value || '').trim();
+  if (!/^(github_pat_|ghp_)[A-Za-z0-9_]{20,}$/.test(v)) { S.setMsg = 'Dit lijkt geen GitHub-token (begint met github_pat_).'; S.setOk = false; return renderSettings(); }
+  store.set('ghToken', v);
+  S.setMsg = 'GitHub gekoppeld. Kies hierboven hoe lang je wilt pauzeren.'; S.setOk = true;
+  renderSettings();
+}
+function clearToken() {
+  try { localStorage.removeItem('ghToken'); } catch {}
+  S.setMsg = 'GitHub ontkoppeld op dit toestel.'; S.setOk = true;
+  renderSettings();
+}
+
+function statusLine() {
+  const next = nextEpisodeDate();
+  if (!pausedNow()) return { title: 'Aan', text: `Volgende weekoverzicht: ${fmtLong.format(next)}, 08:00.` };
+  if (!S.status.until) return { title: 'Uitgezet', text: 'Tot je hem weer aanzet worden er geen afleveringen gemaakt.' };
+  return { title: `Uitgezet tot ${fmtLong.format(parseDay(S.status.until))}`, text: `Daarna weer elke maandag; de eerstvolgende op ${fmtLong.format(next)}.` };
+}
+
+function renderStatus() {
+  const off = pausedNow();
+  const btn = $('#setBtn');
+  btn.classList.toggle('off', off);
+  btn.innerHTML = ICON.power;
+  const line = statusLine();
+  $('#status-slot').innerHTML = off
+    ? `<div class="glass pausebar"><span class="pi">${ICON.pause}</span>
+        <div><strong>${esc(line.title)}</strong>Er worden geen nieuwe afleveringen gemaakt.</div>
+        <button class="chip-btn press" data-act="resume">Aanzetten</button></div>`
+    : '';
+}
+
+function settingsHTML() {
+  const off = pausedNow();
+  const line = statusLine();
+  const token = store.get('ghToken');
+  const dis = S.saving ? ' disabled' : '';
+  const opt = (days, label, sub) => `<button class="opt press" data-act="pause" data-days="${days}"${dis}>${label}<small>${sub}</small></button>`;
+  const until = (days) => { const d = new Date(); d.setDate(d.getDate() + days); return 't/m ' + new Intl.DateTimeFormat('nl-NL', { day: 'numeric', month: 'short' }).format(d); };
+  return `<div class="grab"></div><h3>Afleveringen</h3>
+    <p class="set-lead">Elke maandag om 08:00 verschijnt een weekoverzicht van ongeveer tien minuten.</p>
+    <div class="state${off ? ' off' : ''}"><span class="led"></span><div><strong>${esc(line.title)}</strong>${esc(line.text)}</div></div>
+    ${off
+      ? `<button class="btn-wide press" data-act="resume"${dis}>Weer aanzetten</button>`
+      : `<div class="eyebrow">Een tijdje uitzetten</div>
+         <div class="opts">${opt(14, '2 weken', until(13))}${opt(30, '1 maand', until(29))}${opt(91, '3 maanden', until(90))}${opt(0, 'Tot ik hem aanzet', 'geen einddatum')}</div>`}
+    <p class="note">Uitgezet worden er geen nieuwe afleveringen gemaakt en kost het geen ElevenLabs-tegoed. Bestaande afleveringen blijven gewoon te beluisteren.</p>
+    <p class="set-msg${S.setOk ? ' ok' : ''}" id="setMsg">${esc(S.setMsg)}</p>
+    <hr>
+    <div class="eyebrow">Koppeling met GitHub</div>
+    ${token
+      ? `<p class="linked">Gekoppeld op dit toestel · <button data-act="cleartoken">Ontkoppelen</button></p>`
+      : `<ol class="token-steps">
+          <li>Open <a href="${TOKEN_URL}" target="_blank" rel="noopener">GitHub → nieuw fine-grained token</a>.</li>
+          <li>Repository access: <b>Only select repositories</b> → <b>ai-nieuws-podcast</b>.</li>
+          <li>Permissions → Repository → <b>Contents: Read and write</b>.</li>
+          <li>Generate token, kopieer het en plak het hieronder.</li>
+        </ol>
+        <div class="token-row"><input id="tokenInput" type="password" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="github_pat_…"><button class="press" data-act="savetoken">Koppel</button></div>
+        <p class="note" style="margin-top:8px">Het token blijft alleen op dit toestel en mag uitsluitend deze ene repo aanpassen.</p>`}`;
+}
+function renderSettings() {
+  if ($('#sheet').dataset.mode !== 'settings' || !$('#sheet').classList.contains('show')) return;
+  const typed = $('#tokenInput')?.value;
+  $('#sheet').innerHTML = settingsHTML();
+  if (typed && $('#tokenInput')) $('#tokenInput').value = typed;
+}
+function openSettings() {
+  S.setMsg = ''; S.setOk = false;
+  const sh = $('#sheet');
+  sh.dataset.mode = 'settings';
+  sh.setAttribute('aria-label', 'Afleveringen aan of uit');
+  sh.innerHTML = settingsHTML();
+  sh.scrollTop = 0;
+  sh.classList.add('show');
+  $('#scrim').classList.add('show');
+  loadStatus().then(renderSettings);
+}
+
 // ---------- Klikken ----------
 function start(id) {
   const ep = S.episodes.find((e) => e.id === id);
@@ -822,7 +1037,9 @@ document.addEventListener('click', (e) => {
   if (act) {
     e.stopPropagation();
     ({ toggle, back: () => skip(-15), fwd: () => skip(15), rate: cycleRate, close: closePlayer,
-       transcript: openSheet, sheetclose: closeSheet, dismiss: dismissInstall }[act.dataset.act] || (() => {}))();
+       transcript: openSheet, sheetclose: closeSheet, dismiss: dismissInstall,
+       settings: openSettings, resume: () => setPause(null), pause: () => setPause(Number(act.dataset.days)),
+       savetoken: saveToken, cleartoken: clearToken }[act.dataset.act] || (() => {}))();
     return;
   }
   const p = e.target.closest('[data-play]');
@@ -854,6 +1071,8 @@ addEventListener('resize', () => { sizeAurora(); if (S.playerOpen) { sizeWave();
 addEventListener('pagehide', () => saveProgress());
 render();
 refresh();
+loadStatus();
+document.addEventListener('visibilitychange', () => { if (!document.hidden) { refresh(); loadStatus(); } });
 requestAnimationFrame(frame);
 if ('serviceWorker' in navigator && location.protocol === 'https:') navigator.serviceWorker.register('sw.js').catch(() => {});
 })();

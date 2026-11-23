@@ -1,8 +1,8 @@
 // Service worker voor de AI Nieuws-webapp.
 // - App-schil (HTML, iconen) wordt bewaard, zodat de app ook zonder netwerk opent.
-// - index.html en episodes.json: eerst netwerk (altijd vers), anders de bewaarde versie.
+// - index.html, episodes.json en status.json: eerst netwerk (altijd vers), anders de bewaarde versie.
 // - mp3's laten we met rust: die streamt de browser zelf (met range-requests).
-const VERSION = 'ainieuws-v1';
+const VERSION = 'ainieuws-v2';
 const SHELL = [
   './',
   'index.html',
@@ -33,10 +33,11 @@ self.addEventListener('fetch', (event) => {
   if (url.pathname.endsWith('.mp3') || url.pathname.endsWith('.xml')) return;
 
   const networkFirst = req.mode === 'navigate' || url.pathname.endsWith('/') ||
-    url.pathname.endsWith('index.html') || url.pathname.endsWith('episodes.json');
+    url.pathname.endsWith('index.html') || url.pathname.endsWith('episodes.json') || url.pathname.endsWith('status.json');
 
   if (networkFirst) {
-    const cacheKey = url.pathname.endsWith('episodes.json') ? 'episodes.json' : 'index.html';
+    const file = url.pathname.split('/').pop();
+    const cacheKey = file === 'episodes.json' || file === 'status.json' ? file : 'index.html';
     event.respondWith(
       fetch(req)
         .then((res) => {
