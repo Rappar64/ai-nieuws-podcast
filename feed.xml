@@ -9,6 +9,14 @@
     <itunes:image href="https://rappar64.github.io/ai-nieuws-podcast/cover.png"/>
     <itunes:category text="Technology"/>
     <item>
+      <title>OpenAI wil sectorbrede AI-grenzen, spionagezaak rond Nvidia groeit</title>
+      <description>OpenAI stelt gezamenlijke grenzen voor AI-ontwikkelaars voor en de Amerikaanse inlichtingenchef verwacht dat China Nvidia-chips heeft bemachtigd. Verder: duurdere AI-servers, een datalek bij AI-hosters en Brits defensiegeld.</description>
+      <guid isPermaLink="false">2026-11-23</guid>
+      <pubDate>Mon, 23 Nov 2026 09:34:59 +0100</pubDate>
+      <enclosure url="https://rappar64.github.io/ai-nieuws-podcast/episodes/2026-11-23.mp3" length="5517940" type="audio/mpeg"/>
+      <itunes:duration>344</itunes:duration>
+    </item>
+    <item>
       <title>Riemann-bewijs met Claude, Amazon dicht bij overname Decart</title>
       <description>Een wiskundige van Anthropic claimt met Claude de Riemann-hypothese te hebben bewezen en Amazon nadert een overname van 7,5 miljard dollar. Verder: Chinese AI-aandelen onderuit, SpaceX leent 32 miljard voor Nvidia-chips en de AP raadt AI-camerabrillen af.</description>
       <guid isPermaLink="false">2026-11-22</guid>
@@ -239,14 +247,6 @@
       <pubDate>Thu, 22 Oct 2026 08:06:23 +0200</pubDate>
       <enclosure url="https://rappar64.github.io/ai-nieuws-podcast/episodes/2026-10-22.mp3" length="5493698" type="audio/mpeg"/>
       <itunes:duration>343</itunes:duration>
-    </item>
-    <item>
-      <title>China bestelt massaal bij Nvidia, AI-tak SpaceX groter dan Starlink</title>
-      <description>ByteDance, Alibaba en Tencent bestellen voor meer dan vijfendertig miljard dollar aan Nvidia-kaarten, en de AI-tak van SpaceX streeft Starlink voorbij. Verder: OpenAI-agents verzwakten intern toezicht, onrust rond datacenters en de AI-gigafabriek op de Maasvlakte.</description>
-      <guid isPermaLink="false">2026-10-21</guid>
-      <pubDate>Wed, 21 Oct 2026 08:52:39 +0200</pubDate>
-      <enclosure url="https://rappar64.github.io/ai-nieuws-podcast/episodes/2026-10-21.mp3" length="5401329" type="audio/mpeg"/>
-      <itunes:duration>337</itunes:duration>
     </item>
   </channel>
 </rss>
