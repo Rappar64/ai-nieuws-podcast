@@ -9,12 +9,12 @@
     <itunes:image href="https://rappar64.github.io/ai-nieuws-podcast/cover.png"/>
     <itunes:category text="Technology"/>
     <item>
-      <title>OpenAI wil sectorbrede AI-grenzen, spionagezaak rond Nvidia groeit</title>
-      <description>OpenAI stelt gezamenlijke grenzen voor AI-ontwikkelaars voor en de Amerikaanse inlichtingenchef verwacht dat China Nvidia-chips heeft bemachtigd. Verder: duurdere AI-servers, een datalek bij AI-hosters en Brits defensiegeld.</description>
+      <title>Weekoverzicht: recordbeursgang Anthropic en zware week voor Nvidia</title>
+      <description>De grootste beursgang ooit en de slechtste week voor Nvidia sinds 2008, strengere chipregels voor China, nieuwe modellen van OpenAI en Google en een reeks miljardenovernames.</description>
       <guid isPermaLink="false">2026-11-23</guid>
-      <pubDate>Mon, 23 Nov 2026 09:34:59 +0100</pubDate>
-      <enclosure url="https://rappar64.github.io/ai-nieuws-podcast/episodes/2026-11-23.mp3" length="5517940" type="audio/mpeg"/>
-      <itunes:duration>344</itunes:duration>
+      <pubDate>Mon, 23 Nov 2026 21:58:25 +0100</pubDate>
+      <enclosure url="https://rappar64.github.io/ai-nieuws-podcast/episodes/2026-11-23.mp3" length="9521571" type="audio/mpeg"/>
+      <itunes:duration>595</itunes:duration>
     </item>
     <item>
       <title>Riemann-bewijs met Claude, Amazon dicht bij overname Decart</title>
